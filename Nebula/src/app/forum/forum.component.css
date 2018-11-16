@@ -1,0 +1,380 @@
+.couleur-du-body{
+    background-image:url(https://wallpapersite.com/images/wallpapers/stars-3840x2160-galaxy-4k-6362.jpg);
+    padding-bottom: 40px
+}
+
+
+.police-du-body{
+    font-family: 'VT323', monospace;
+}
+
+.titre-page-forum{
+    margin-left: auto ;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size:500%;
+    color: aqua;
+    padding-top: 15px;
+    
+}
+.titre-page-forum:hover {
+
+    background: -webkit-linear-gradient(aqua,DeepSkyBLue,DodgerBlue, blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+  }
+
+
+
+.forum-topic{
+    margin-top: 30px;
+    border: 2px solid aqua;
+    background-color: darkblue;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.contenu-forum-topic{
+    margin: 10px;
+    padding-top: 10px;
+}
+.haut-cadre-forum{
+    margin-left:50px
+}
+.barre_recherche_forum{
+    height: 50px;
+    font-size: 150%
+}
+.recherche-forum{
+    margin-bottom:20px
+}
+.bouton_search_forum{
+    font-size: 150%;
+    font-family: 'VT323', monospace;
+    background-color: darkblue;
+    border: 2px solid blue;
+    color:darkgray;
+    margin-left: 20px
+}
+.bouton_search_forum:hover{
+    color: gold;
+    background-color: blue;
+    border: 2px solid turquoise;
+}
+.bouton_NS_forum{
+    font-size: 150%;
+    font-family: 'VT323', monospace;
+    background-color: darkblue;
+    border: 2px solid blue;
+    color:darkgray;
+    height: 60px;
+    
+}
+.bouton_NS_forum:hover{
+    color: gold;
+    background-color: blue;
+    border: 2px solid turquoise;
+}
+.previous-next{
+    padding-top: 50px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.page-precedent{
+    text-align: left;
+    
+}
+.numero-page{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 6.5px; 
+    font-size: 110%
+}
+.page-link:hover{
+    color: gold;
+    background-color: blue;
+    border: 2px solid turquoise;
+}
+.page-suivante{
+    float: right
+}
+.bouton_prev_forum:hover{
+    color: gold;
+    background-color: blue;
+    border: 2px solid turquoise;
+}
+.bouton_prev_forum{
+    background-color: darkblue;
+    border: 2px solid blue;
+    color:darkgray;
+}
+.bouton_next_forum:hover{
+    color: gold;
+    background-color: blue;
+    border: 2px solid turquoise;
+}
+.bouton_next_forum{
+    background-color: darkblue;
+    border: 2px solid blue;
+    color:darkgray;
+}
+.tableaux-des-topics{
+    color: darkgray;
+    font-size: 150%;
+    background-color: midnightblue;
+    border: 2px solid blue;
+    width: 100%;
+    margin-top: 40px
+}
+.Topic-selectionnable:hover{
+    color: gold;
+    background-color: blue;
+    border: 2px solid turquoise;
+}
+.Base{
+    background-color: darkblue;
+    color: darkgray
+}
+.Date{
+    text-align: center
+}
+.Subject{
+    width: 50%;
+    padding-left: 5px;
+}
+.Author{
+    text-align: center
+}
+.ecriture-new-subject{
+    text-align: center;
+    font-size: 170%;
+    border-radius: 10px;
+    margin: 0;
+    height: 55px;
+    background-color: navy;
+    border: 2px solid blue;
+    color:darkgray;
+    width: 120%;
+}
+.title-new-subject{
+    height: 50px;
+    font-size: 150%;
+    text-align: center
+}
+.bouton-post{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 50px;
+}
+.option-ecriture{
+    width: 100%;
+    display: inline-flex;
+    background-color: navy;
+    border: 2px solid blue;
+    color: darkgray;
+    border-radius: 10px
+}
+.bold{
+    display: inline;
+    font-weight: bolder;
+    font-size: 150%;
+    line-height: 1.15em;
+    background-color: navy;
+    border: 2px solid blue;
+    color:darkgray
+}
+.bold:hover{
+    color: gold;
+    background-color: blue;
+    border: 2px solid turquoise;
+}
+.italic{
+    display: inline;
+    font-style: italic;
+    font-size: 150%;
+    line-height: 1.15em;
+    background-color: navy;
+    border: 2px solid blue;
+    color:darkgray
+}
+.italic:hover{
+    color: gold;
+    background-color: blue;
+    border: 2px solid turquoise;
+}
+.underline{
+    display: inline;
+    text-decoration: underline;
+    font-size: 150%;
+    line-height: 1.15em;
+    background-color: navy;
+    border: 2px solid blue;
+    color:darkgray
+}
+.underline:hover{
+    color: gold;
+    background-color: blue;
+    border: 2px solid turquoise;
+}
+.Bold{
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Italic{
+    margin-left: 2.5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Underline{
+    margin-left: 2.5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Import{
+    margin-left: auto;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.import{
+    width: 120%;
+    font-size: 120%;
+    background-color: navy;
+    border: 2px solid blue;
+    color:darkgray;
+}
+.import:hover{
+    color: gold;
+    background-color: blue;
+    border: 2px solid turquoise;
+}
+.zone-de-texte{
+    background-color: navy;
+    border: 2px solid blue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center
+}
+.text-zone{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 90%;
+    font-size: 130%
+    
+}
+.bouton-post-new-subject{
+    font-size:150%;
+    background-color: navy;
+    border: 2px solid blue;
+    color:darkgray
+}
+.bouton-post-new-subject:hover{
+    color: gold;
+    background-color: blue;
+    border: 2px solid turquoise;
+}
+.recherche-forum{
+    padding-bottom: 10px
+}
+.notButtonNewSubj{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px
+}
+
+
+
+/*---------------------------MEDIA QUERIES FORUM------------*/
+
+@media screen and (max-width: 768px) {
+    .titre-page-forum{
+        font-size:400%
+    }
+    .bouton_NS_forum{
+        left: 30px;
+        font-size: 110%
+    }
+    .barre_recherche_forum{
+        margin-right: 10%;
+        font-size: 120%;
+        height: 42px;
+       
+    }
+    .bouton_search_forum{
+        font-size: 120%;
+        display: block
+        
+    }
+    .numero-page{
+        padding-top:12px;
+        font-weight: bold
+    }
+    .previous-next{
+        padding-top: 5%;
+        font-size: 70%
+    }
+    
+    .ecriture-new-subject{
+        font-size: 110%;
+        display: flex;
+        align-items: center;
+        margin-left: 6px;
+        width: 120%;
+        justify-content: center;
+    }
+    .tableaux-des-topics{
+        font-size: 120%
+    }
+    .title-new-subject{
+        width: 90%
+    }
+    .bouton_search_forum{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        font-size: 120%;
+        padding-right: 10px
+    }
+    .BTN_NS_FORUM{
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+    }
+    .recherche-forum{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .haut-cadre-forum{
+        margin-left:0px
+    }
+    
+}
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .bouton_search_forum{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    .BTN_NS_FORUM{
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+    }
+    .recherche-forum{
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .barre_recherche_forum{
+        margin-top: 10px;
+        margin-right: 10px
+    }
+    .haut-cadre-forum{
+        margin-left:0px
+    }
+}

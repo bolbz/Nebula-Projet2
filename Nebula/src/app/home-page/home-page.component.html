@@ -1,0 +1,91 @@
+<section>
+    <div class="bouton-scroll-site container-fluid">
+        <div class="block-bouton row">
+            <div class="bouton-home-page" (click)="onSelect()">SOLAR SYSTEME 3D</div>
+            <div class="bouton-home-page" (click)="onSelect1()">CHOOSE YOUR STARS</div>
+        </div>
+    </div>
+  <div class="container-fluid sytsol" [hidden]="IsHidden">
+    <div class="col-12 solary">
+      <iframe id="inlineFrameExample" title="Inline Frame Example" width="100%" height="700" src="https://www.planete-astronomie.eu/files/jsorrery-master/?scenario=SolarSystem&planetScale=10&lookFrom=orbital&lookAt=universe&deltaT=1&date=2018-10-09T12:56:34.000Z&cx=1.2246467991473532e-16&cy=-1&cz=1003.884821853887&fov=45">
+      </iframe>
+    </div>
+  </div>
+</section>
+<section>
+  <!-- Parti Corp de page -->
+  <div class="case-study-gallery firstcolor container" [hidden]="IsHidden1">
+    <h1 class="title">CHOOSE YOUR STARS</h1>
+    <div class="case-study study1">
+      <div class="case-study__overlay">
+        <h2 class="case-study__title">The Sun</h2>
+        <a class="case-study__link" routerLink="/actuality">View Planet</a>
+      </div>
+    </div>
+
+    <div class="case-study study2">
+      <div class="case-study__overlay">
+        <h2 class="case-study__title">Mercury</h2>
+        <a class="case-study__link" routerLink="/mercury">View Planet</a>
+      </div>
+    </div>
+
+    <div class="case-study study3">
+      <div class="case-study__overlay">
+        <h2 class="case-study__title">Venus</h2>
+        <a class="case-study__link" routerLink="/venus">View Planet</a>
+      </div>
+    </div>
+
+    <div class="case-study study4">
+      <div class="case-study__overlay">
+        <h2 class="case-study__title">Earth</h2>
+        <a class="case-study__link" routerLink="/earth">View Planet</a>
+      </div>
+    </div>
+
+    <div class="case-study study5">
+      <div class="case-study__overlay">
+        <h2 class="case-study__title">Moon</h2>
+        <a class="case-study__link" routerLink="/moon">View Planet</a>
+      </div>
+    </div>
+
+    <div class="case-study study6">
+      <div class="case-study__overlay">
+        <h2 class="case-study__title">March</h2>
+        <a class="case-study__link" routerLink="/march">View Planet</a>
+      </div>
+    </div>
+
+    <div class="case-study study7">
+      <div class="case-study__overlay">
+        <h2 class="case-study__title">Jupiter</h2>
+        <a class="case-study__link" routerLink="/jupiter">View Planet</a>
+      </div>
+    </div>
+
+    <div class="case-study study8">
+      <div class="case-study__overlay">
+        <h2 class="case-study__title">Saturn</h2>
+        <a class="case-study__link" routerLink="/saturn">View Planet</a>
+      </div>
+    </div>
+
+    <div class="case-study study9">
+      <div class="case-study__overlay">
+        <h2 class="case-study__title">Uranus</h2>
+        <a class="case-study__link" routerLink="/uranus">View Planet</a>
+      </div>
+    </div>
+
+    <div class="case-study study10">
+      <div class="case-study__overlay">
+        <h2 class="case-study__title">Neptune</h2>
+        <a class="case-study__link" routerLink="/neptune">View Planet</a>
+      </div>
+    </div>
+
+
+  </div>
+</section>

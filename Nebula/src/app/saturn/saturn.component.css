@@ -1,0 +1,261 @@
+section {
+	background-image: url(https://i.pinimg.com/originals/08/f5/40/08f540818d6c89010ad3c489bba3042a.jpg);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-bottom: 100px
+  }
+  .navigation-actualite{
+	  display:flex;
+	  justify-content: space-around;
+  }
+  .raccourci-article-actuel{
+	  color: gold;
+	  background-color: blue;
+	  border: 1px solid turquoise;
+	  border-radius: 10px;
+	  font-family: 'VT323', monospace;
+	  width:20%;
+	  font-size: 130%;
+  }
+  .raccourci-autre-article{
+	  color: aqua;
+	  font-size: 130%;
+	  background-color: transparent;
+	  border-radius: 10px;
+	  font-family: 'VT323', monospace;
+	  width:20%;
+  }
+  .raccourci-autre-article:hover{
+	  color: gold;
+	  background-color: blue;
+	  border: 1px solid turquoise;
+  }
+  .titre-planete {
+	  font-size : 300%;
+	  text-align: center;
+	  font-family: 'Orbitron', sans-serif;
+	  color: aqua;
+  }
+  .titre-planete:hover{
+	  background: -webkit-linear-gradient(aqua,DeepSkyBLue,DodgerBlue, blue);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+  }
+  
+  .container-carroussel{
+	  display: inline-block;
+	  background-color: #1F2A3F;
+	  overflow: hidden;
+  
+  }
+  
+  
+  
+  .titre-page-article {
+	  font-size: 400%;
+	  text-align: center;
+	  color: aqua;
+	  width: 100%;
+	  height: 100%;
+	  font-family: 'Orbitron', sans-serif;	
+  }
+  .titre-page-article:hover{
+	  background: -webkit-linear-gradient(aqua,DeepSkyBLue,DodgerBlue, blue);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+  }
+  /*----------------Cards------------------------*/
+  .card {
+	  border-radius:10px;
+	  margin:10px auto;
+	  border: 2px solid aqua;
+	  background-color: midnightblue;
+  }
+  .card-title {
+	  text-transform: uppercase;
+	  color: aqua;
+	  font-family: 'Orbitron', sans-serif;
+	  font-size: 2rem;
+  }
+  
+  .card-text {
+	  margin-top:10px;
+	  margin-bottom: 10px;
+	  background-color:midnightblue;
+	  color: darkgrey;
+	  font-family: 'VT323', 'monospace';
+	  font-size: 1.3rem;
+  }
+  .card-text:hover{
+	  color: gold
+  }
+  a.btn, a.btn:visited {
+	  color:#333333;
+  }
+  hr {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+	  border: 2px solid aqua;
+	  border-radius: 10px;
+  }
+  
+  .disabled {
+	  border: 1px solid aqua;
+	  color: darkgrey;
+	  background-color: midnightblue;
+	  font-family: 'VT323', 'monospace';
+  }
+  
+  .disabled:hover {
+	  color: gold;
+	  background-color: blue;
+  }
+  
+  .card-text li {
+	  font-size: 1.3rem;
+  }
+
+  #allCards{
+	  padding-bottom: 0px
+  }
+	  
+  
+  
+  
+  
+  /* ______ carrousel _______*/
+  
+  #wrapper {
+	  width:600px;
+	  -webkit-perspective: 800;
+	  height: 300px;
+	  padding-top: 46px;
+	  margin: auto;
+  }
+  
+  #allPlan {
+	width: 100px;
+	height: 100px;
+	-webkit-transform-style: preserve-3D;
+	-webkit-animation: Caroussel 120s infinite linear;
+	position: absolute;
+	left: 40%;
+	
+   
+ }
+  .block-carousel {
+	  margin: 100% 100%;
+  }
+  
+  .block-caroussel img {
+	 width: 100%;
+	 height:100%;
+	 border-radius: 10px;
+   }
+   #carouselGyro{
+	   overflow: hidden;
+	   height: 550px;
+	   padding-top: 100px;
+	   padding-bottom: 100px
+   }
+  
+  .plan {
+	  position: absolute;
+	  height: 200px;
+	  width: 150px;
+	  text-align: center;
+	  font-size: 8em;
+	  color: #fff;
+	  background-color: rgba(0,0,0,0.01); 
+	  overflow: hidden;
+	  border-radius: 10px
+  }
+  
+  @-webkit-keyframes Caroussel {
+  
+	 from { -webkit-transform: rotateY(0); }
+	 to { -webkit-transform: rotateY(360deg); }
+  }
+  
+  #allPlan > .p1 { -webkit-transform: translateZ(500px);}
+  #allPlan > .p2 { -webkit-transform: rotateY(45deg) translateZ(500px);}
+  #allPlan > .p3 { -webkit-transform: rotateY(90deg) translateZ(500px);}
+  #allPlan > .p4 { -webkit-transform: rotateY(135deg) translateZ(500px);}
+  #allPlan > .p5 { -webkit-transform: rotateY(180deg) translateZ(500px);}
+  #allPlan > .p6 { -webkit-transform: rotateY(225deg) translateZ(500px);}
+  #allPlan > .p7 { -webkit-transform: rotateY(270deg) translateZ(500px);}
+  #allPlan > .p8 { -webkit-transform: rotateY(315deg) translateZ(500px);}
+  
+  /*___________________ MEDIA QUERIES _______________________*/
+  
+  @media screen and (max-width: 576px) {
+	.titre-page-article{
+		font-size: 300% ;
+	}
+	.navigation-actualite{
+		font-size:70%;
+	}
+  
+	  #allPlan {
+		  margin:auto;
+		  -webkit-transform-style: preserve-3D;
+		 -webkit-animation: Caroussel 50s infinite linear;
+  }
+	  #wrapper {
+		  margin: auto;
+		  width: auto;
+	  }
+  }
+  
+  @media screen and (min-width: 577px) and (max-width: 768px ) {
+	  #allPlan {
+	  
+		  margin:auto;
+		  -webkit-transform-style: preserve-3D;
+		 -webkit-animation: Caroussel 50s infinite linear;
+  }
+	  #wrapper {
+		  margin: auto;
+		  width: auto;
+	  }
+  }
+  
+  
+  
+	  .container-general-article {
+		  width: 100%;
+		  height: 150%;
+		  /*overflow: hidden;
+		  /*background-color: black;*/
+		  background-repeat: repeat;
+		  background-attachment: scroll;
+		  background-image: url("https://images.wallpaperscraft.com/image/stars_galaxies_rotation_universe_68893_540x960.jpg");
+		  background-position: top top;
+	   
+  }
+  
+  
+  
+  /*----------------SHARE-----------------------------*/
+  
+  
+  .container{ text-align: center; }
+  
+  /* Button styles: */
+  i.fb,       span.fb{         color: #3b5998; }
+  i.tw,       span.tw{     	color: #00aced; }
+  i.google,   span.google{ 	color: #dd4b39; }
+  i.linkin,   span.linkin{ 	color: #007bb6; }
+  i.pinterest,span.pinterest{ color: #cb2027; }
+  
+  body {
+	  background: red;
+  }
+  

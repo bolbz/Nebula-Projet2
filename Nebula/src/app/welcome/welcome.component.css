@@ -1,0 +1,149 @@
+.welcome {
+    background: url(http://cdn1-europe1.new2.ladmedia.fr/var/europe1/storage/images/europe1/emissions/a-la-vitesse-de-la-lumiere/video-la-nebuleuse-a-tete-de-cheval-une-nurserie-d-etoiles-222926/4738440-1-fre-FR/VIDEO-La-nebuleuse-a-tete-de-cheval-une-nurserie-d-etoiles.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family:  'Lato', sans-serif;
+    color: #FFF;
+    font-weight: 400;
+  }
+  
+  .welcome {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    font-size: 100px;
+    margin-top: -66px;
+    text-align: center;
+    perspective: 600px;
+  }
+  
+  .welcome span {
+    width: 16.6666666%;
+    display: inline-block;
+    float: left;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    opacity: 0
+  }
+  .welcome span:nth-child(1) {
+    animation-name: animC;
+  }
+  .welcome span:nth-child(2) {
+    color:aqua;
+    animation-name: animO1;
+  }
+  .welcome span:nth-child(3) {
+    color: aqua;
+    animation-name: animS1;
+  }
+  .welcome span:nth-child(4) {
+    color: aqua;
+    animation-name: animM;
+  }
+  .welcome span:nth-child(5) {
+    color: aqua;
+    animation-name: animO2;
+  }
+  .welcome span:nth-child(6) {
+    animation-name: animS2;
+  }
+  
+  @keyframes animC {
+    0% , 90% { transform: translate3D( 240%,0,-400px ) rotateY( 85deg );color: aqua; opacity: 0 }
+    10%, 80% { transform: translate3D( 220%,0,0 ) rotateY( 40deg ); opacity: 1; }
+    32%, 58% { transform: translate3D( 0,0,0 ) rotateY( 0deg ); }
+  }
+  @keyframes animO1 {
+    15%, 75% { transform: translate3D( 120%,0, 0 ) rotateY( 90deg ); color: #999; opacity: 0 }
+    32%, 58% { transform: translate3D( 0,0,0 ) rotateY( 0deg ); color: #FFF; opacity: 1 }
+  }
+  @keyframes animS1 {
+    20%, 70% { transform: translate3D( 30%,0, 0 ) rotateY( 90deg ); color: #999; opacity: 0 }
+    32%, 58% { transform: translate3D( 0,0,0 ) rotateY( 0deg ); color: #FFF; opacity: 1 }
+  }
+  @keyframes animM {
+    20%, 70% { transform: translate3D( -30%,0, 0 ) rotateY( -90deg ); color: #999; opacity: 0 }
+    32%, 58% { transform: translate3D( 0,0,0 ) rotateY( 0deg ); color: #FFF; opacity: 1 }
+  }
+  @keyframes animO2 {
+    15%, 75% { transform: translate3D( -120%,0, 0 ) rotateY( -90deg ); color: #999; opacity: 0 }
+    32%, 58% { transform: translate3D( 0,0,0 ) rotateY( 0deg ); color: #FFF; opacity: 1 }
+  }
+  @keyframes animS2 {
+    0% , 90% { transform: translate3D( -240%,0,-400px ) rotateY( -85deg );color: aqua; opacity: 0 }
+    10%, 80% { transform: translate3D( -220%,0,0 ) rotateY( -40deg ); opacity: 1; }
+    32%, 58% { transform: translate3D( 0,0,0 ) rotateY( 0deg ); }
+  }
+
+
+  /*------------------PARTI BUTTON-----------------------*/
+
+
+  .wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     
+  }
+  .btn {
+     
+    position: relative;
+    display: inline-block;
+    letter-spacing: 1.2px;
+    padding: 12px 32px;
+    text-align: center;
+    text-transform: uppercase;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .btn:focus {
+    outline: none;
+  }
+  .btn--primary {
+    color: gold;
+  }
+  .btn--border {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  .btn--animated {
+    transition-property: color;
+    transition-duration: 0.5s;
+  }
+  .btn--animated.btn--border.btn--primary {
+    border: 1px solid aqua;
+  }
+  .btn--animated:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: darkblue;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    z-index: -1;
+  }
+  .btn--animated:hover {
+    color: gold;
+  }
+  .btn--animated:hover:before {
+    transform: scaleX(1);
+    transition-timing-function: cubic-bezier(0.45, 1.64, 0.47, 0.66);
+  }  
